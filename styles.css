@@ -123,7 +123,11 @@ select {
  * Nav er fast efst og fylgir þegar við skrollum síðu.
  */
 nav {
-  /* TODO */
+display: flex;
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
 }
 
 nav ul {
