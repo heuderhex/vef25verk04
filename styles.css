@@ -145,7 +145,14 @@ height: 50px;
 nav ul li {
 margin: 0 15px;
 }
+nav a {
+text-decoration: none; /* fjarlægir default undirlínur */
+}
 
+nav a:focus,
+nav a:hover {
+  text-decoration: underline;
+}
 /* TODO fleiri selectorar fyrir valmynd */
 
 /** Haus á síðum **/
