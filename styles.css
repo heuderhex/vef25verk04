@@ -133,7 +133,7 @@ width: 100%;
 nav ul {
 display: flex;
 font-family: 'Atkinson Hyperlegible';
-font-size: 1.25rem;   
+font-size: 1.5rem;       /*á að vera 24pixla stærð og default er 16*/
 justify-content: center; /* miðjar lárétt */
 align-items: center;     /* miðjar lóðrétt */
 list-style: none;        /* fjarlæging punkta */
