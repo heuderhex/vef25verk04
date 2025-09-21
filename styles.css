@@ -159,8 +159,10 @@ text-decoration: underline;
 
 /** Haus á síðum **/
 
+
 header {
-  text-align: center; /* h1 í header erfir þetta */
+  display: flex
+  justify-content: center;
 }
 h1 {
   font-size: 3rem; /* 3 sinnum 16 default = 48pixlar */
