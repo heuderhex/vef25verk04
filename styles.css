@@ -142,6 +142,10 @@ margin: 0;
 height: 50px;      
 }
 
+nav ul li {
+margin: 0 15px;
+}
+
 /* TODO fleiri selectorar fyrir valmynd */
 
 /** Haus á síðum **/
