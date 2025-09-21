@@ -158,10 +158,10 @@ text-decoration: underline;
 /* TODO fleiri selectorar fyrir valmynd */
 
 /** Haus á síðum **/
-
+header {
+  text-align: center; /* h1 í header erfir þetta */
+}
 h1 {
-  display: flex
-  justify-content: center;
   font-size: 3rem; /* 3 sinnum 16 default = 48pixlar */
 }
 
