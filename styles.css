@@ -131,7 +131,7 @@ width: 100%;
 }
 
 nav ul {
-  /* TODO */
+display: flex;
 }
 
 /* TODO fleiri selectorar fyrir valmynd */
