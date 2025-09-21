@@ -132,6 +132,8 @@ width: 100%;
 
 nav ul {
 display: flex;
+font-family: 'Atkinson Hyperlegible';
+font-size: 1.25rem;   
 }
 
 /* TODO fleiri selectorar fyrir valmynd */
