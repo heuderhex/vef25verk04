@@ -160,7 +160,10 @@ text-decoration: underline;
 /** Haus á síðum **/
 
 header {
-  /* TODO */
+  text-align: center; /* h1 í header erfir þetta */
+}
+h1 {
+  font-size: 3rem; /* 3 sinnum 16 default = 48pixlar */
 }
 
 /* TODO fleiri selectorar fyrir hausa */
