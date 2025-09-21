@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="is">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Skráðu þig eða hópinn þinn á sýningu hjá Listasafninu.">
+    <meta property="og:image" content="https://leafy-rolypoly-77bcec.netlify.app/myndir/sharing.jpg">
+    <title>Skráning á sýningu á Listasafninu</title>
+  </head>
+  
+  <body>
+    <h1>Skráning á sýningu á Listasafninu</h1>
+    
+    <a href="#main">beint í efni</a>
+    
+    <nav>
+      <ul>
+        <li><a href="/index.html">Forsíða</a></li>
+        <li><a href="/sidur/um.html">Um Listasafnið</a></li>
+        <li><a href="/sidur/syningar.html">Sýningar á Listasafninu</a></li>
+        <li><strong aria-current="page">Skráning á sýningu</strong></li>
+      </ul>
+    </nav>
+
+    <main id="main">
+      
+      <section>
+        <h2>Sýning</h2>
+        <p>Hvaða sýningu viljið þið skrá ykkur á?</p>
+        <ul>
+          <li><label for="nuverandi-syning">Núverandi sýningar</label>
+            <select id="nuverandi-syning" name="nuverandi-syning">
+              <option value="sýning0">Velja sýningu</option>
+              <option value="sýning1">Skuggar og Speglar</option>
+              <option value="sýning2">Tómarýmið</option>
+              <option value="sýning3">Þokan kemur</option>
+              <option value="sýning4">Litir í lífinu</option>
+              <option value="sýning5">Form</option>
+            </select>
+            </li>
+          <li><label for="naestu-syningar">Næstu sýningar</label>
+            <select id="naestu-syningar" name="naestu-syningar">
+              <option value="sýning0">Velja sýningu</option>
+              <option value="sýning6">Dansað á línu</option>
+              <option value="sýning7">Rýmið sem tími</option>
+              <option value="sýning8">öðruvísi</option>
+              <option value="sýning9">Flæði einskis</option>
+              <option value="sýning10">Ímyndaðu þér</option>
+              <option value="sýning11">Síðasti vefurinn</option>
+              <option value="sýning12">Tölvulist</option>
+              <option value="sýning13">abc</option>
+              <option value="sýning14">handan alls</option>
+              <option value="sýning15">Hljóðmyndir</option>
+              <option value="sýning16">Brenglun</option>
+              <option value="sýning17">Snert af engu</option>
+              <option value="sýning18">Víðerni í spegli</option>
+              <option value="sýning19">Fölsk birta</option>
+              <option value="sýning20">forritaður flótti</option>
+              <option value="sýning21">Rótleysi</option>
+              <option value="sýning22">Brot úr mynstri</option>
+              <option value="sýning23">Frostmál</option>
+              <option value="sýning24">nafnlaust</option>
+              <option value="sýning25">Fjarvera</option>
+             </select>
+          </li>
+          <li><label for="dagur-syningar-i-bodi">Allar sýningar sem í boði eru á völdum degi</label>
+            <input type="date" id="dagur-syningar-i-bodi">
+            <label for="syna-syningar-a-degi">Sýna aðeins sýningar sem eru í boði á völdum degi</label>
+            <input type="checkbox" id="syna-syningar-a-degi" name="syna-syningar-a-degi">
+          </li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>Hópur</h2>
+        <ul>
+          <li>
+            <label for="hópstærð">Fjöldi í hóp</label>
+            <input type="number" id="hópstærð" name="hópstærð" required step="1" min="1" max="69">
+          </li>
+          <li><label for="hópupplýsingar">Upplýsingar um hóp</label>
+            <input type="text" id="hópupplýsingar" name="hópupplýsingar" required size="69">
+            <p>Hverskonar hópur er þetta og hvert er meginmarkið heimsóknarinnar?</p>
+          </li>
+          <li><label for="netfang">Netfang tengiliðar</label>
+            <input id="netfang" type="email" name="tölvupóstur" placeholder="skráðu hér tölvupóstin þinn" required>
+            </li>
+          <li><label for="símanúmer">Símanúmerið þitt</label>
+            <input id="símanúmer" type="tel" name="símanúmer" placeholder="567-1234" pattern="^\d{3}[- ]?\d{4}$">
+          </li>
+        </ul>
+      </section>
+      
+      <section>
+        <h2>Dagsetning og tími</h2>
+        <ul>
+          <li>
+            <label for="komudagur">Hvenær viljið þið koma?</label>
+            <input type="date" id="komudagur" name="komudagur" required>
+          </li>
+        <!-- virkar ekki rétt
+          <li><p>Klukkan hvað? <input type="time" step="1800" min="10:00" max="17:00" required></p></li>
+        --> 
+          <li>
+            <label for="tímasetning">Klukkan hvað?</label>
+              <select id="tímasetning" name="tímasetning" required>
+                <option value="">Velja tímasetningu</option>
+                <option value="10:00">10:00</option>
+                <option value="10:30">10:30</option>
+                <option value="11:00">11:00</option>
+                <option value="11:30">11:30</option>
+                <option value="12:00">12:00</option>
+                <option value="12:30">12:30</option>
+                <option value="13:00">13:00</option>
+                <option value="13:30">13:30</option>
+                <option value="14:00">14:00</option>
+                <option value="14:30">14:30</option>
+                <option value="15:00">15:00</option>
+                <option value="15:30">15:30</option>
+                <option value="16:00">16:00</option>
+                <option value="16:30">16:30</option>
+                </select>
+          </li>
+          <li>
+            <p>
+              <label for="lengd">Lengd heimsóknar?</label>
+              <select id="lengd" name="lengd" required>
+                <option value="">Velja tímalengd</option>
+                <option value="0:30">0:30</option>
+                <option value="1:00">1:00</option>
+                <option value="1:30">1:30</option>
+                <option value="2:00">2:00</option>
+                <option value="2:30">2:30</option>
+                <option value="3:00">3:00</option>
+                <option value="3:30">3:30</option>
+                <option value="4:00">4:00</option>
+                <option value="4:30">4:30</option>
+                <option value="5:00">5:00</option>
+                </select>
+              Mælt er með að taka tvær klukkustundir eða lengur fyrir sýningar í sal 1</p>
+            </li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>Bóka</h2>
+        <p>
+          <label>
+            Ég samþykki <a href="/sidur/um.html" target="_blank">skilmála</a> <input type="checkbox" required>
+            </label>
+          </p>
+        <input type="button" value="Panta og greiða">
+      </section>
+   
+      <p>Skráðu þig eða hópinn þinn á sýningu hjá Listasafninu.</p>
+
+      <p><a href="/index.html">Aftur á forsíðu</a></p>
+    </main>
+    
+    <footer>
+      
+      <section>
+        <h2>Opnunartímar</h2>
+        <h3>Skrifstofur</h3>
+        <p>Mánudaga til föstudaga: 10:00–16:00 Helgar: Lokað</p>
+        <h3>Sýningarsalur</h3>
+        <p>Mánudagar: 13:00–16:00 Þriðjudagur til föstudaga: 10:00–17:00 Helgar: 13:00–17:00</p>
+      </section>
+      
+      <section>
+        <h2>Hafðu samband</h2>
+        <ul>
+          <li>Listasafnið, skrifstofur
+            <ul>
+              <li>Listagata 1</li>
+              <li>101 Reykjavík</li>
+              <li>Sími 234-2345</li>
+              <li><a href="mailto:listasafnid@example.org">listasafnid@example.org</a></li>
+            </ul>
+          </li>
+          <li>Listasafnið, sýningarsalur
+            <ul>
+              <li>Listagata 10</li>
+              <li>101 Reykjavík</li>
+              <li>Sími 234-2360</li>
+              <li><a href="mailto:listasafnid-syningarsalur@example.org">listasafnid-syningarsalur@example.org</a></li>
+            </ul>
+          </li>
+        </ul>
+      </section>
+      
+    </footer>
+
+  </body>
+</html>
