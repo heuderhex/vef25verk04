@@ -148,6 +148,9 @@ margin: 0 15px;
 nav a {
 text-decoration: none; /* fjarlægir default undirlínur */
 }
+.nav li[aria-current="page"] {
+text-decoration: underline;
+}
 
 nav a:focus,
 nav a:hover {
