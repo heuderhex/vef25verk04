@@ -134,6 +134,7 @@ nav ul {
 display: flex;
 font-family: 'Atkinson Hyperlegible';
 font-size: 1.25rem;   
+text-align: center;
 }
 
 /* TODO fleiri selectorar fyrir valmynd */
