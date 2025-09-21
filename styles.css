@@ -159,12 +159,9 @@ text-decoration: underline;
 
 /** Haus á síðum **/
 
-
-header {
+h1 {
   display: flex
   justify-content: center;
-}
-h1 {
   font-size: 3rem; /* 3 sinnum 16 default = 48pixlar */
 }
 
